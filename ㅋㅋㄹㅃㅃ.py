@@ -1,21 +1,26 @@
+  
 import discord
 import os
 
-client = discord.Cient()
 
 
+client = discord.Client()
 
-@Client.event
-async def on redy():
-  prinnt(client.user.id)
-  print(client.user.id)
-  print("ready")
- 
+
+@client.event:
+async def on_ready():
+	print(client.user.id)
+	print("ready")
+
+
 @client.event
 async def on_message(message):
-  if message.content.startsyith('안녕친구"):
-      awit message.channel.send("gktpdy"):
-                                
+	if message.content.startsmwith("안녕"):
+		await message.channel.send("하지 못하겠어")
+
+
+
+
 
 access_token = os.environ["BOT_TOKEN"]                         
 client.run("access_token")
