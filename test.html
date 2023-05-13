@@ -14,8 +14,7 @@
         <div>이름: <input type="text" id="name" placeholder="이름"></div>
         <div>지역
             <select onchange="chnageCity();" id="city">
-                <option value="02" selected>서울</option>
-                <option value="064">제주</option>
+
             </select>
         </div>
         <div>동네 :
@@ -33,9 +32,11 @@
 
 
     <script>
-        function test() {
-            
+        function loadCity() {
+            $('#city').append('<option value="02" selected>서울</option');
+            $('#city').append('<option value="064">제주</option');
         }
+        loadCity();
         function chnageCity() {
             let city = document.getElementById("city").value;
             document.getElementById("region_02").style.display = "none";

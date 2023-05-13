@@ -1,0 +1,12 @@
+.container {
+    background-color: aquamarine;
+    width: 390;
+    height: 844;
+
+}
+
+.select {
+    background-color: rgb(235, 235, 235);
+    border-radius: 16px;
+    border-style:solid;
+}
