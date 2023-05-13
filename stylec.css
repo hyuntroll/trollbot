@@ -1,0 +1,69 @@
+.chat {
+    /* Rectangle 2 */
+
+
+position: absolute;
+width: 353px;
+height: 926px;
+left: 75px;
+top: 0px;
+
+background: #FFFFFF;
+}
+
+.left {
+    position: absolute;
+width: 75px;
+height: 926px;
+left: 0px;
+top: 0px;
+
+background: #D9D9D9;
+}
+.a1 {
+    position: absolute;
+width: 44px;
+height: 42px;
+left: 16px;
+top: 44px;
+border-radius: 50px;
+background: #AAAAAA;
+}
+
+.a2 {
+
+    position: absolute;
+    width: 44px;
+    height: 42px;
+    left: 16px;
+    top: 143px;
+    border-radius: 50px;
+    background: #AAAAAA;
+}
+
+
+.chatT {
+    position: absolute;
+    width: 153px;
+    height: 54px;
+    left: 99px;
+    top: 44px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #000000;
+}
+
+.a3 {
+    position: absolute;
+    width: 37px;
+    height: 35px;
+    left: 252px;
+    top: 27px;
+    border-radius: 50px;
+    background: #AAAAAA;
+}
